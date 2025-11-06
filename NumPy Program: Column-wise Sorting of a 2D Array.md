@@ -13,14 +13,15 @@ To write a **NumPy** program that sorts the elements in each column of a given 2
 
 ## 🧾 Program
 ```
-import numpy
-a=numpy.array(eval(input()))
-print(f"Given array\n {a}")
-b=numpy.sort(a,axis=0)
-print(f"\n{b}")
+import numpy as np
+a=eval(input())
+b=np.array(a)
+print(b)
+c=np.sort(b, axis=None)
+print(f"\n{c}")
 ```
 ## Output
-<img width="380" height="267" alt="Screenshot 2025-11-06 134254" src="https://github.com/user-attachments/assets/dc7b9d75-9456-4a21-9515-5c5097698e53" />
+<img width="945" height="384" alt="Screenshot 2025-11-06 134617" src="https://github.com/user-attachments/assets/438674bf-8536-429e-bbf3-b4b4f27fca53" />
 
 ## Result
 Thus,the program is executed successfully
